@@ -1,0 +1,12 @@
+      index  
+        $conn = mysqli_connect('localhost', 'root', 'root', 'SocialNetwork');
+        $result = mysqli_query($conn, "select photo_type, photo_content from photo where id={$post_content_result['photo_id']}");
+        $row = mysqli_fetch_array($result);
+        
+        echo "<img src='data:image/png;base64,".base64_encode($row['photo_content'])."'/>";
+
+      submit
+        $conn = mysqli_connect('localhost', 'root', 'root', 'SocialNetwork');
+                        $imageBlob = addslashes(file_get_contents($_FILES['uploadFile']['tmp_name']));
+                        $stmt = $conn->prepare('insert into photo (photo_type, photo_content) values (?,?)');
+                        $stmt->bind_param("sb", $storetype, $imageBlob);
