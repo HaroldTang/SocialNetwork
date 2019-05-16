@@ -49,15 +49,15 @@ INSERT INTO `audio` (`id`, `audio_type`, `audio_path`) VALUES
 (3, 'mp3', ''),
 (5, 'mp3', ''),
 (6, 'mp3', ''),
-(7, 'audio/mp3', 'upload/elijah who - first kiss.mp3'),
-(8, 'audio/mp3', 'upload/つじあやの - 猫になりたい.mp3'),
-(9, 'audio/mp3', 'upload/边走边唱 - 李荣浩.mp3'),
-(10, 'audio/mp3', 'upload/手嶌葵 - Moon River.mp3'),
-(11, 'audio/mp3', 'upload/ハンバート ハンバート - 23时59分.mp3'),
-(12, 'audio/mp3', 'upload/桀一Jelly - 等风也等你（cover）.mp3'),
-(13, 'audio/mp3', 'upload/边走边唱 - 李荣浩.mp3'),
-(14, 'audio/mp3', 'upload/今晚打老虎13010 - 小橘猫-你要我.mp3'),
-(15, 'audio/mp3', 'upload/今晚打老虎13010 - 童话镇(发行版).mp3');
+(7, 'audio/mp3', 'upload/1.mp3'),
+(8, 'audio/mp3', 'upload/2.mp3'),
+(9, 'audio/mp3', 'upload/3.mp3'),
+(10, 'audio/mp3', 'upload/4.mp3'),
+(11, 'audio/mp3', 'upload/5.mp3'),
+(12, 'audio/mp3', 'upload/6.mp3'),
+(13, 'audio/mp3', 'upload/7.mp3'),
+(14, 'audio/mp3', 'upload/8.mp3'),
+(15, 'audio/mp3', 'upload/9.mp3');
 
 -- --------------------------------------------------------
 
